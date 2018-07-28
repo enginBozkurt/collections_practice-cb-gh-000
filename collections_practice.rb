@@ -48,9 +48,9 @@ def find_a(array)
 end
 
 def add_s(array)
-  array.each_with_index do |item, index| 
+  array.each_with_index do |item, index|
     unless index == 1
       item << "s"
-    end 
-  end 
+    end
+  end
 end
