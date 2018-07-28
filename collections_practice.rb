@@ -47,3 +47,10 @@ def find_a(array)
   a_array
 end
 
+def add_s(array)
+  array.each_with_index do |item, index| 
+    unless index == 1
+      item << "s"
+    end 
+  end 
+end
