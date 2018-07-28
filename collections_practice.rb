@@ -31,6 +31,19 @@ def kesha_maker(array)
   end
 end
 
+def sum_array(array)
+  array.inject() do |sum, i|
+    sum += i
+  end
+end
 
-
+def find_a(array)
+  a_array = []
+  array.each do |word|
+    if word.start_with?("a")
+      a_array << word
+    end
+  end
+  a_array
+end
 
